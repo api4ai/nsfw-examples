@@ -1,92 +1,70 @@
-# Not-safe-for-work Content Recognition
+# API4AI Samples: NSFW Recognition
+
+<div align="center">
+<a target="_blank" href="https://api4.ai"><img src="https://storage.googleapis.com/api4ai-static/logo/a4a-logo-horizontal-gradient-rectangular-bg-round-glow-small-550.png"/></a>
+</div>
 
 
+<div align="center">
+<a target="_blank" href="https://rapidapi.com/api4ai-api4ai-default/api/nsfw3/details"><img src="https://img.shields.io/badge/View%20on%20RapidAPI-gray?logo=octopusdeploy&style=for-the-badge"/></a>
+<a target="_blank" href="https://api4.ai/apis/nsfw"><img src="https://img.shields.io/badge/api4.ai%20platform-fee33c?style=for-the-badge&logo=icloud&logoColor=black"/></a>
+<a target="_blank" href="https://t.me/a4a_nsfw_checker_bot"><img src="https://img.shields.io/badge/-Telegram%20demo-ddd?logo=telegram&style=for-the-badge"/></a>
+<br><br>
+<a target="_blank" href="https://www.instagram.com/api4ai"><img src="https://img.shields.io/badge/instagram--blue?style=social&logo=instagram"/></a>
+<a target="_blank" href="https://www.facebook.com/api4ai.solutions/"><img src="https://img.shields.io/badge/facebook--blue?style=social&logo=facebook"/></a>
+<a target="_blank" href="https://twitter.com/Api4Ai"><img src="https://img.shields.io/badge/twitter--blue?style=social&logo=twitter"/></a>
+<a target="_blank" href="https://www.linkedin.com/company/api4ai"><img src="https://img.shields.io/badge/linkedin--blue?style=social&logo=linkedin"/></a>
+</div>
 
-## Getting started
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+## 👉 Overview
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+API4AI is cloud-native computer vision & AI platform for startups, enterprises and individual developers. This repository contains sample mini apps that utilize **NSFW Recognition API** provided by API4AI.
 
-## Add your files
+The NSWF Recognition API provides visual content analysis and outputs data about the images: Not Safe For Work (NSFW) or Safe For Work (SFW). It also gives the confidence percentage for each of the two classes.
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+NSFW can detect inappropriate content of various kinds. NSFW tag is responsible for such content as porn, hentai or more mild but explicit content that can be unsuitable for work and other public places.
 
-```
-cd existing_repo
-git remote add origin https://gitlab.com/api4ai/nsfw.git
-git branch -M main
-git push -uf origin main
-```
+<div align="center">
+<img width="400" src="https://storage.googleapis.com/api4ai-static/rapidapi/NSFW_2.png"/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="400" src="https://storage.googleapis.com/api4ai-static/rapidapi/NSFW_1.png"/>
+</div>
 
-## Integrate with your tools
 
-- [ ] [Set up project integrations](https://gitlab.com/api4ai/nsfw/-/settings/integrations)
+## 🛠 Technologies
 
-## Collaborate with your team
+This project run to help API users with ready-to-use examples in a set of the most popular languages and technologies:
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+* `python`:
+  * [requests](./python/requests/README.md)
+  * [aiohttp](./python/aiohttp/README.md)
+* `bash`
+  * [curl](./bash/curl/README.md)
+* `C#`:
+  * [RestSharp](./csharp/restsharp/README.md)
+* `PHP`:
+  * [cURL](./php/curl/README.md)
+* `NodeJS`:
+  * [Axios](./nodejs/axios/README.md)
+* `Javascript`:
+  * [fetch](./js/fetch/README.md)
+  * [Axios](./js/axios/README.md)
+  * [jQuery](./js/jquery/README.md)
 
-## Test and Deploy
 
-Use the built-in continuous integration in GitLab.
+## 🔗 Links
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+* Learn more about API on [api4.ai](https://api4.ai/docs/nsfw)
+* Try API via [🤖 telegram demo bot](https://t.me/a4a_nsfw_checker_bot)
+* View API on [RapidAPI marketplace](https://rapidapi.com/api4ai-api4ai-default/api/nsfw3/details)
 
-***
 
-# Editing this README
+## 📩 Contacts
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!).  Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
+Feel free to contact API4AI team if have any questions.
 
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+* Email: hello@api4.ai
+* Telegram: https://t.me/a4a_support_bot
 
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+Please, if you have trouble with configuration or running, feel free to open an issue and ask any questions about using API.
