@@ -1,0 +1,14 @@
+stages:
+  - lint
+
+flake8:
+  stage: lint
+  image: python:3.9-alpine
+  before_script:
+    - pip3 install pydocstyle flake8 flake8-quotes flake8_tuple pep8-naming flake8-import-order
+  script:
+    - >
+      flake8
+      --ignore D200,D202,D203,D209,D400,D413,E309,E402,N812,Q003,B008,B305,W503
+      --import-order-style smarkets
+      --max-line-length 130
