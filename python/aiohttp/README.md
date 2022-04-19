@@ -1,6 +1,6 @@
-# API4AI NSFW image classification
+# API4AI NSFW image classification sample
 
-This directory contains a minimalistic sample that sends requests to the API4AI NSFW image classification API. The sample is implemented in  `python` using [aiohttp](https://pypi.org/project/aiohttp/) module.
+This directory contains a minimalistic sample that sends requests to the API4AI NSFW Image Classification API. The sample is implemented in  `python` using [aiohttp](https://pypi.org/project/aiohttp/) module.
 
 
 ## Overview
