@@ -17,11 +17,13 @@ pip3 install -r requirements.txt
 ```
 
 Try sample with default args:
+
 ```bash
 python3 sample.py
 ```
 
 Try sample with your local image:
+
 ```bash
 python3 sample.py image.jpg
 ```
