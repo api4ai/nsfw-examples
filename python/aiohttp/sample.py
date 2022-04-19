@@ -15,7 +15,7 @@ import aiohttp
 MODE = 'demo'
 
 
-# Your RapidAPI key. You need to fill this variable by proper value if you want
+# Your RapidAPI key. Fill this variable with the proper value if you want
 # to try api4ai via RapidAPI marketplace.
 RAPIDAPI_KEY = ''
 
