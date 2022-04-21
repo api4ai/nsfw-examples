@@ -1,4 +1,7 @@
+#!/usr/bin/env python3
+
 """Example of using API4AI NSFW image classification."""
+
 import asyncio
 import sys
 
