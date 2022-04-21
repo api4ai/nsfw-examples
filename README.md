@@ -39,8 +39,11 @@ This project run to help API users with ready-to-use examples in a set of the mo
 * `python`:
   * [requests](./python/requests/README.md)
   * [aiohttp](./python/aiohttp/README.md)
-* `bash`
+* `bash`:
   * [curl](./bash/curl/README.md)
+  
+Coming soon:
+
 * `C#`:
   * [RestSharp](./csharp/restsharp/README.md)
 * `PHP`:
