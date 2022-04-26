@@ -43,13 +43,13 @@ This project run to help API users with ready-to-use examples in a set of the mo
   * [curl](./bash/curl/README.md)
 * `C#`:
   * [RestSharp](./csharp/restsharp/README.md)
-  
+* `NodeJS`:
+  * [Axios](./nodejs/axios/README.md)
+
 Coming soon:
 
 * `PHP`:
   * [cURL](./php/curl/README.md)
-* `NodeJS`:
-  * [Axios](./nodejs/axios/README.md)
 * `Javascript`:
   * [fetch](./js/fetch/README.md)
   * [Axios](./js/axios/README.md)

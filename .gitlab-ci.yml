@@ -12,3 +12,11 @@ flake8:
       --ignore D200,D202,D203,D209,D400,D413,E309,E402,N812,Q003,B008,B305,W503
       --import-order-style smarkets
       --max-line-length 130
+
+eslint:
+  stage: lint
+  image: node:16.14.2-alpine
+  before_script:
+    - npm i eslint eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise
+  script:
+    - node_modules/eslint/bin/eslint.js --ext .js .

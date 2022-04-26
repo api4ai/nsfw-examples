@@ -1,0 +1,30 @@
+{
+  "name": "a4a-nsfw-axios-sample",
+  "version": "1.0.0",
+  "description": "NSFW image classification API sample with axios in nodejs",
+  "eslintConfig": {
+    "env": {
+      "commonjs": true,
+      "es2021": true,
+      "node": true
+    },
+    "extends": [
+      "standard"
+    ],
+    "parserOptions": {
+      "ecmaVersion": "latest"
+    },
+    "rules": {}
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "form-data": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.1.0",
+    "eslint-plugin-promise": "^6.0.0"
+  }
+}
