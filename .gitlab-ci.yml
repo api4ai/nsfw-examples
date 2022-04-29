@@ -1,7 +1,8 @@
 stages:
   - lint
+  - site
 
-flake8:
+flake8-lint:
   stage: lint
   image: python:3.9-alpine
   before_script:
@@ -13,10 +14,22 @@ flake8:
       --import-order-style smarkets
       --max-line-length 130
 
-eslint:
+web-lint:
   stage: lint
   image: node:16.14.2-alpine
   before_script:
-    - npm i eslint eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise
+    - npm i htmlhint eslint eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise
   script:
     - node_modules/eslint/bin/eslint.js --ext .js .
+    - node_modules/htmlhint/bin/htmlhint
+
+pages:
+  image: alpine
+  stage: site
+  script:
+    - cp -r js/axios public
+  artifacts:
+    paths:
+      - public
+  only:
+    - main
