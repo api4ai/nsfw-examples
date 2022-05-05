@@ -2,6 +2,7 @@
 
 """Example of using API4AI NSFW image classification."""
 
+import mimetypes
 import os
 import sys
 
@@ -47,11 +48,12 @@ if __name__ == '__main__':
             data={'url': image})
     else:
         # POST image as file.
+        mt = mimetypes.guess_type(image)[0]
         with open(image, 'rb') as image_file:
             response = requests.post(
                 OPTIONS[MODE]['url'],
                 headers=OPTIONS[MODE]['headers'],
-                files={'image': (os.path.basename(image), image_file)}
+                files={'image': (os.path.basename(image), image_file, mt)}
             )
 
     # Print raw response.
