@@ -3,6 +3,7 @@
 """Example of using API4AI NSFW image classification."""
 
 import asyncio
+import os
 import sys
 
 import aiohttp
@@ -46,7 +47,10 @@ async def main():
             data = {'url': image}
         else:
             # Data from local image file.
-            data = {'image': open(image, 'rb')}
+            data = aiohttp.MultipartWriter('form-data')
+            payload = data.append(open(image, 'rb'))
+            payload.set_content_disposition('form-data', name='image', filename=os.path.basename(image))
+            payload.headers['Content-Type'] = payload.headers.pop('Content-Type')  # noqa: workaround for bad support of multipart/form-data in RapidAPI
         # Make request.
         async with session.post(OPTIONS[MODE]['url'],
                                 data=data,
