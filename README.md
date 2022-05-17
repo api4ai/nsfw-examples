@@ -45,6 +45,8 @@ This project run to help API users with ready-to-use examples in a set of the mo
   * [RestSharp](./csharp/restsharp)
 * `NodeJS`:
   * [Axios](./nodejs/axios)
+* `Javascript`:
+  * [Axios](./js/axios)
 
 Coming soon:
 
@@ -52,7 +54,6 @@ Coming soon:
   * [cURL](./php/curl)
 * `Javascript`:
   * [fetch](./js/fetch)
-  * [Axios](./js/axios)
   * [jQuery](./js/jquery)
 
 
