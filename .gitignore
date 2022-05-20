@@ -544,3 +544,9 @@ fabric.properties
 # .NET Core build folders
 bin/
 obj/
+
+### Apple ###
+
+.DS_Store
+xcuserdata
+xcshareddata

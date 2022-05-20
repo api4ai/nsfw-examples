@@ -43,6 +43,8 @@ This project run to help API users with ready-to-use examples in a set of the mo
   * [curl](./bash/curl)
 * `C#`:
   * [RestSharp](./csharp/restsharp)
+* `Swift`:
+  * [URLSession](./swift/urlsession)
 * `NodeJS`:
   * [Axios](./nodejs/axios)
 * `Javascript`:
