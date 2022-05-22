@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>NSFW Image Classification API sample</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+  <script src="./index.js"></script>
+</head>
+<body>
+  <main class="container">
+    <article style="margin-top: 0px">
+      <h3 style="text-align: center;">NSFW Image Classification API sample</h3>
+      <p>This API processes images and detects sexual content in them, marking the images as Safe For Work (SFW) or Not Safe For Work (NSFW).</p>
+      <div style="text-align: center;">
+        <p>
+          <a href="mailto:hello@api4.ai"><img src="https://img.shields.io/badge/Send%20email-81b549?logo=googlechat&logoColor=white"></a>
+          <a target="_blank" href="https://api4.ai/apis/nsfw?utm_source=nsfw_example_repo&utm_medium=page&utm_campaign=examples"><img src="https://img.shields.io/badge/api4.ai%20platform-fee33c?logo=icloud&logoColor=black"></a>
+          <a href="https://t.me/a4a_nsfw_checker_bot"><img src="https://img.shields.io/badge/-Telegram%20demo-white?logo=telegram"></a>
+          <a href="https://rapidapi.com/api4ai-api4ai-default/api/nsfw3/details"><img src="https://img.shields.io/badge/Subscribe%20to%20API-blue?logo=octopusdeploy&logoColor=white"></a>
+        </p>
+        <div>
+          <a target="_blank" href="https://www.instagram.com/api4ai"><img src="https://img.shields.io/badge/instagram--blue?style=social&logo=instagram"/></a>
+          <a target="_blank" href="https://www.facebook.com/api4ai.solutions/"><img src="https://img.shields.io/badge/facebook--blue?style=social&logo=facebook"/></a>
+          <a target="_blank" href="https://twitter.com/Api4Ai"><img src="https://img.shields.io/badge/twitter--blue?style=social&logo=twitter"/></a>
+          <a target="_blank" href="https://www.linkedin.com/company/api4ai"><img src="https://img.shields.io/badge/linkedin--blue?style=social&logo=linkedin"/></a>
+        </div>
+      </div>
+    </article>
+    <label for="file">Select image to upload
+      <input type="file" id="file" name="file">
+    </label>
+    <h4 id="spinner" style="text-align: center;" aria-busy="true" hidden>Processing</h4>
+    <section id="sectionParsed" hidden>
+      <label for="parsed">💬 Probabilities:
+        <pre id="parsed" style="padding: 10px;"></pre>
+      </label>
+    </section>
+    <section id="sectionRaw" hidden>
+      <label for="raw">💬 Raw response:
+        <pre id="raw" style="padding: 10px;"></pre>
+      </label>
+    </section>
+  </main>
+</body>
+</html>
