@@ -23,7 +23,7 @@ if [[ "${MODE}" == "demo" ]]; then
     HEADERS="A4A-CLIENT-APP-ID: sample"  # optional header
 elif [[ "${MODE}" == "rapidapi" ]]; then
     URL="https://nsfw3.p.rapidapi.com/v1/results"
-    HEADERS="X-RapidAPI-Key': ${RAPIDAPI_KEY}"
+    HEADERS="X-RapidAPI-Key: ${RAPIDAPI_KEY}"
 else
     echo "Unsupported sample mode"
     exit 1
