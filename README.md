@@ -1,7 +1,7 @@
 # API4AI Samples: NSFW Recognition
 
 <div align="center">
-<a target="_blank" href="https://api4.ai?utm_source=nsfw_example_repo&utm_medium=readme&utm_campaign=examples"><img src="https://storage.googleapis.com/api4ai-static/logo/a4a-logo-horizontal-gradient-rectangular-bg-round-glow-small-550.png"/></a>
+<a target="_blank" href="https://api4.ai?utm_source=nsfw_example_repo&utm_medium=readme&utm_campaign=examples"><img src="https://static.api4.ai/logo/a4a-logo-horizontal-gradient-rectangular-bg-round-glow-small-550.png"/></a>
 </div>
 
 
@@ -26,9 +26,9 @@ The NSWF Recognition API provides visual content analysis and outputs data about
 NSFW can detect inappropriate content of various kinds. NSFW tag is responsible for such content as porn, hentai or more mild but explicit content that can be unsuitable for work and other public places.
 
 <div align="center">
-<img width="350" src="https://storage.googleapis.com/api4ai-static/visuals/NSFW_2.png"/>
+<img width="350" src="https://static.api4.ai/visuals/NSFW_2.png"/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img width="350" src="https://storage.googleapis.com/api4ai-static/visuals/NSFW_1.png"/>
+<img width="350" src="https://static.api4.ai/visuals/NSFW_1.png"/>
 </div>
 
 
