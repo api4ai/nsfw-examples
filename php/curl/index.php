@@ -31,7 +31,7 @@ $OPTIONS = [
 $request = curl_init();
 
 // Check if path to local image provided.
-$data = ['url' => 'https://storage.googleapis.com/api4ai-static/samples/nsfw-1.jpg'];
+$data = ['url' => 'https://static.api4.ai/samples/nsfw-1.jpg'];
 if (array_key_exists(1, $argv)) {
     if (strpos($argv[1], '://')) {
         $data = ['url' => $argv[1]];
